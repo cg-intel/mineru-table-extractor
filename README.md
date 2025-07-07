@@ -2,6 +2,8 @@
 
 ### 1. 创建 Python 虚拟环境
 
+请使用Linux操作系统，建议使用Python 3.10
+
 ```bash
 python3 -m venv mineru_env
 source mineru_env/bin/activate
@@ -11,7 +13,7 @@ source mineru_env/bin/activate
 
 ```bash
 pip install beautifulsoup4
-pip install mineru
+pip install mineru[core]
 ```
 
 ### 3. 下载 MinerU 模型（首次使用）

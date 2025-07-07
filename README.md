@@ -1,7 +1,7 @@
 ## 安装说明
 
 ### 0. 安装系统依赖（仅需一次）
-在运行前，请先安装图形依赖库（用于支持 OpenCV）：
+请使用Linux操作系统，在运行前，请先安装图形依赖库（用于支持 OpenCV）：
 
 **Ubuntu / Debian 用户：**
 
@@ -12,7 +12,7 @@ sudo apt install -y libgl1
 
 ### 1. 创建 Python 虚拟环境
 
-请使用Linux操作系统，建议使用Python 3.10，3.10已下版本mineru不可用
+建议使用Python 3.10，3.10以下版本mineru不可用
 
 ```bash
 python3 -m venv mineru_env

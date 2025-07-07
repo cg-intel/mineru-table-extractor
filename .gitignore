@@ -1,0 +1,10 @@
+mineru_env/
+__pycache__/
+*.pyc
+*.log
+*.pdf
+*.md
+*.zip
+*.bak
+outputs/
+.idea/

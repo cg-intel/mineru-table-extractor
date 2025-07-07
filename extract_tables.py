@@ -12,7 +12,7 @@ def run_mineru_and_extract(pdf_path_str):
 
     product_name = pdf_path.stem.split("_Spec")[0]
     output_dir = pdf_path.with_name(f"{product_name}")
-    md_file = output_dir / output_dir.name / "auto" / f"{pdf_path.stem}.md"
+    md_file = output_dir / pdf_path.stem / "auto" / f"{pdf_path.stem}.md"
     final_output = pdf_path.with_name(f"{product_name}_tables.md")
 
     print(f"MinerU extracting: {pdf_path.name}")

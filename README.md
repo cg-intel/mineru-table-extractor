@@ -2,7 +2,7 @@
 
 ### 1. 创建 Python 虚拟环境
 
-请使用Linux操作系统，建议使用Python 3.10
+请使用Linux操作系统，建议使用Python 3.10，3.10已下版本mineru不可用
 
 ```bash
 python3 -m venv mineru_env
